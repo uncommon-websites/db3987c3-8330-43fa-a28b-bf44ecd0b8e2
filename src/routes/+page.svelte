@@ -24,7 +24,7 @@
 		
 		<section class="py-24 px-6 max-w-7xl mx-auto space-y-32">
 			<h2 class="text-4xl md:text-5xl font-serif max-w-3xl leading-tight">
-				Deliver seamless experiences and faster, higher-quality care at the moment of need
+				Built for NHS hospital doctors who need defensible clinical evidence
 			</h2>
 			<SplitSection type="clinicians" />
 			<SplitSection type="consumers" />

@@ -4,19 +4,19 @@
     let activeTab = 0;
     const features = [
         {
-            title: "Intelligent Access and Answers",
-            description: "Offer consumer-grade care experiences and provide the right answers and care options.",
-            link: "Learn more"
+            title: "Cited, Peer-Reviewed Evidence",
+            description: "Every clinical recommendation is backed by cited sources from peer-reviewed journals and validated guidelines.",
+            link: "Explore evidence library"
         },
         {
-            title: "Streamlined Care Experiences",
-            description: "Automate intake and triage to reduce administrative burden and improve patient flow.",
-            link: "Learn more"
+            title: "Conservative Medical Validation",
+            description: "Our clinical validation process ensures recommendations are defensible and align with established medical consensus.",
+            link: "Learn about validation"
         },
         {
-            title: "Operational & Clinical Efficiency",
-            description: "Optimize resource allocation and improve clinical decision making with data-driven insights.",
-            link: "Learn more"
+            title: "Built for Hospital Doctors",
+            description: "Designed specifically for NHS registrars and consultants who need quick, reliable evidence at the point of care.",
+            link: "See how it works"
         }
     ];
 </script>
@@ -24,7 +24,7 @@
 <section class="bg-fabric-blue py-24">
     <div class="max-w-7xl mx-auto px-6">
         <h2 class="text-4xl md:text-5xl font-serif max-w-3xl mb-16 leading-tight">
-            We drive better outcomes and savings for health systems, health plans, and employers
+            Stop wasting time searching unreliable sources. Get defensible clinical evidence instantly.
         </h2>
 
         <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -39,11 +39,11 @@
                 <!-- Floating cards -->
                 <div class="absolute top-1/4 right-10 bg-white/90 backdrop-blur p-3 rounded-lg shadow-lg text-xs flex items-center gap-2 animate-pulse">
                     <div class="w-2 h-2 bg-green-500 rounded-full"></div>
-                    Patient seen virtually
+                    247 peer-reviewed sources
                 </div>
                 <div class="absolute bottom-1/3 left-10 bg-white/90 backdrop-blur p-3 rounded-lg shadow-lg text-xs flex items-center gap-2">
-                     <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    Patient referred for in-person care
+                     <div class="w-2 h-2 bg-fabric-accent rounded-full"></div>
+                    Evidence grade: A
                 </div>
             </div>
 

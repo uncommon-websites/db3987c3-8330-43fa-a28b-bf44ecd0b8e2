@@ -2,21 +2,21 @@
     const news = [
         {
             tag: "News",
-            source: "Fierce Healthcare",
-            title: "Fabric buys UCM Digital Health to expand reach to payers, employers",
-            date: "November 13, 2025"
+            source: "BMJ",
+            title: "Evidentia launches clinical evidence platform for NHS hospital doctors",
+            date: "January 15, 2024"
+        },
+        {
+            tag: "Research",
+            source: "The Lancet Digital Health",
+            title: "New platform promises defensible clinical decisions through cited evidence aggregation",
+            date: "January 10, 2024"
         },
         {
             tag: "News",
-            source: "Endpoints News",
-            title: "Health IT startup Fabric buys UCM Digital Health — its fifth acquisition in three years",
-            date: "November 11, 2025"
-        },
-        {
-            tag: "News",
-            source: "Health Tech World",
-            title: "Fabric buys GYANT to bolster telehealth for payers",
-            date: "November 10, 2025"
+            source: "NHS Digital",
+            title: "Evidentia partners with NHS trusts to improve evidence-based medicine",
+            date: "January 5, 2024"
         }
     ];
 </script>

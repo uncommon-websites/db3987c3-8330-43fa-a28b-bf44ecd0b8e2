@@ -3,23 +3,23 @@
     
     const content = {
         clinicians: {
-            title: "For clinicians...",
+            title: "For hospital registrars...",
             items: [
-                { title: "Move Faster", desc: "With automated symptom collection, documentation, prescriptions, and lab orders." },
-                { title: "Work smarter", desc: "Thanks to readily available, evidence-based decision support." },
-                { title: "Care better", desc: "Optimize resource allocation and patient flow." }
+                { title: "Make defensible decisions", desc: "Every recommendation backed by cited, peer-reviewed evidence you can trust." },
+                { title: "Save time searching", desc: "Stop wasting hours on unreliable sources. Get validated evidence instantly." },
+                { title: "Build peer trust", desc: "Share evidence with colleagues through defensible cited sources." }
             ],
-            image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            image: "/generated/image-doctor-making-clinical-decisions-with-co-1765724315946-3.webp",
             overlay: true
         },
         consumers: {
-            title: "For consumers...",
+            title: "For teaching rounds...",
             items: [
-                { title: "Start anywhere", desc: "Gain digital-first access to care wherever and whenever." },
-                { title: "Know more", desc: "With simple step-by-step guides across the journey." },
-                { title: "Stay connected", desc: "Through sleek experiences that keep them happy and coming back." }
+                { title: "Present with confidence", desc: "Cite peer-reviewed evidence during ward rounds and teaching sessions." },
+                { title: "Stay current", desc: "Access the latest clinical guidelines and systematic reviews." },
+                { title: "Overcome trust concerns", desc: "Conservative validation ensures recommendations align with medical consensus." }
             ],
-            image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+            image: "/generated/image-confident-hospital-registrar-during-teac-1765724313326-2.webp",
             overlay: false
         }
     };
@@ -43,8 +43,8 @@
                 </li>
             {/each}
         </ul>
-        <button class="border border-gray-300 px-6 py-2.5 rounded-full text-sm font-medium hover:bg-gray-50 transition-colors">
-            Request a demo
+        <button class="bg-fabric-accent text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-fabric-green-dark transition-colors">
+            Request Early Access
         </button>
     </div>
 
@@ -56,46 +56,46 @@
             {#if type === 'clinicians'}
                 <div class="absolute top-1/2 left-4 right-4 transform -translate-y-1/2 bg-white rounded-lg shadow-lg p-4 max-w-xs">
                     <div class="flex items-center gap-2 mb-3 border-b border-gray-100 pb-2">
-                         <div class="w-2 h-2 bg-green-500 rounded-full"></div>
-                         <span class="text-xs font-medium">Melanie (34) attests to experiencing abdominal pain</span>
+                         <div class="w-2 h-2 bg-fabric-accent rounded-full"></div>
+                         <span class="text-xs font-medium">Evidence for acute MI management</span>
                     </div>
                     <div class="space-y-2">
                         <div class="bg-gray-50 p-2 rounded">
-                            <p class="text-[10px] font-semibold text-gray-500 mb-1">Recommended diagnoses</p>
-                            <div class="flex gap-2">
-                                <div class="w-3 h-3 bg-fabric-dark rounded-sm"></div>
+                            <p class="text-[10px] font-semibold text-gray-500 mb-1">Top Guidelines</p>
+                            <div class="flex gap-2 items-center">
+                                <div class="text-[8px] bg-fabric-accent text-white px-1 py-0.5 rounded font-bold">A</div>
                                 <div class="h-1.5 bg-gray-200 w-20 rounded"></div>
                             </div>
                         </div>
                          <div class="bg-gray-50 p-2 rounded">
-                            <p class="text-[10px] font-semibold text-gray-500 mb-1">Discharge patient</p>
+                            <p class="text-[10px] font-semibold text-gray-500 mb-1">Cited Sources</p>
                             <div class="h-1.5 bg-gray-200 w-full rounded mb-1"></div>
                             <div class="h-1.5 bg-gray-200 w-2/3 rounded"></div>
                         </div>
-                        <div class="bg-fabric-dark text-white text-[10px] p-2 rounded text-center">
-                            Send care plan and begin discharge
+                        <div class="bg-fabric-accent text-white text-[10px] p-2 rounded text-center">
+                            View full evidence summary
                         </div>
                     </div>
                 </div>
             {:else}
                  <div class="absolute bottom-10 right-4 bg-white rounded-lg shadow-lg p-4 max-w-xs w-64">
                     <div class="space-y-3">
-                        <div class="bg-pink-50 p-3 rounded-lg rounded-tl-none text-xs">
-                            Welcome, Melanie
+                        <div class="bg-fabric-blue p-3 rounded-lg rounded-tl-none text-xs">
+                            Teaching Round Query
                             <br/>
-                            Please start your intake
-                             <div class="mt-2 bg-fabric-dark text-white inline-block px-2 py-1 rounded-full text-[10px]">Get started</div>
+                            "What's the evidence for dual antiplatelet therapy?"
+                             <div class="mt-2 bg-fabric-accent text-white inline-block px-2 py-1 rounded-full text-[10px]">Search evidence</div>
                         </div>
                         <div class="bg-gray-100 p-3 rounded-lg rounded-tr-none ml-auto text-xs w-fit">
-                            Was the onset of abdominal pain sudden?
+                            Evidence Level: Grade A
                             <div class="mt-2 space-y-1">
                                 <div class="flex items-center gap-2 bg-white p-1 rounded border border-gray-200">
-                                    <div class="w-3 h-3 bg-fabric-dark rounded-sm"></div>
-                                    <span>Yes</span>
+                                    <div class="w-3 h-3 bg-fabric-accent rounded-sm"></div>
+                                    <span class="text-[10px]">ESC Guidelines 2023</span>
                                 </div>
                                 <div class="flex items-center gap-2 bg-white p-1 rounded border border-gray-200">
-                                    <div class="w-3 h-3 border border-gray-300 rounded-sm"></div>
-                                    <span>No</span>
+                                    <div class="w-3 h-3 bg-fabric-accent rounded-sm"></div>
+                                    <span class="text-[10px]">Lancet Meta-analysis</span>
                                 </div>
                             </div>
                         </div>

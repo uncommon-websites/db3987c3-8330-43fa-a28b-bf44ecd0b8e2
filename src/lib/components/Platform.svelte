@@ -1,18 +1,18 @@
 <script>
     const cards = [
         {
-            title: "AI Assistant",
-            image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            title: "Evidence Search",
+            image: "/generated/image-medical-research-papers-and-peer-reviewe-1765724310866-1.webp",
             color: "bg-fabric-dark"
         },
         {
-            title: "Provider Directory",
-            image: "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800&q=80",
+            title: "Citation Management",
+            image: "/generated/image-nhs-hospital-doctor-in-scrubs-reviewing--1765724307733-0.webp",
             color: "bg-fabric-green"
         },
         {
-            title: "Engagement & Pathways",
-            image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
+            title: "Clinical Validation",
+            image: "/generated/image-doctor-making-clinical-decisions-with-co-1765724315946-3.webp",
             color: "bg-fabric-blue"
         }
     ];
@@ -22,10 +22,10 @@
     <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
         <div class="max-w-2xl">
             <h2 class="text-4xl md:text-5xl font-serif mb-6 leading-tight">
-                Meet our end-to-end care access platform and virtual care services
+                Clinical evidence platform built for NHS hospital doctors
             </h2>
             <p class="text-gray-600 text-lg">
-                Fabric creates operational and clinical efficiency that expands access while providing consumer-grade care experiences that drive better outcomes and savings for health systems, employers, brokers, and health plans alike.
+                Evidentia aggregates peer-reviewed evidence and provides conservative medical validation, giving you defensible clinical decisions backed by cited sources you can trust.
             </p>
         </div>
         <div class="flex gap-4">

@@ -21,83 +21,82 @@
         </div>
 
         <!-- CTA Box -->
-        <div class="bg-fabric-blue-dark/30 rounded-2xl p-8 md:p-16 flex flex-col md:flex-row justify-between items-center gap-8 mb-24">
+        <div class="bg-fabric-blue rounded-2xl p-8 md:p-16 flex flex-col md:flex-row justify-between items-center gap-8 mb-24">
             <div class="max-w-xl">
-                <h2 class="text-3xl md:text-4xl font-serif mb-4">See Fabric in action</h2>
+                <h2 class="text-3xl md:text-4xl font-serif mb-4">Ready to make defensible clinical decisions?</h2>
                 <p class="text-gray-600">
-                    Fabric creates operational and clinical efficiency that expands access while providing consumer-grade care experiences that drive better outcomes and savings for health systems, employers, brokers, and health plans alike.
+                    Join NHS hospital doctors who are saving time and improving patient care with cited, peer-reviewed evidence at the point of care.
                 </p>
             </div>
-            <button class="bg-blue-200 hover:bg-blue-300 text-fabric-dark px-8 py-4 rounded-full font-medium transition-colors whitespace-nowrap">
-                Request a demo
+            <button class="bg-fabric-accent hover:bg-fabric-green-dark text-white px-8 py-4 rounded-full font-medium transition-colors whitespace-nowrap">
+                Request Early Access
             </button>
         </div>
 
         <!-- Footer Links -->
         <div class="grid md:grid-cols-4 gap-12 mb-24">
             <div class="col-span-1 md:col-span-1">
-                <h3 class="text-2xl font-serif mb-4">Stay in the loop</h3>
-                <p class="text-sm text-gray-500 mb-6">Keep up-to-date with all things Fabric by signing up for our newsletter.</p>
+                <h3 class="text-2xl font-serif mb-4">Stay informed</h3>
+                <p class="text-sm text-gray-500 mb-6">Get updates on new evidence, features, and clinical insights from Evidentia.</p>
                 <div class="relative">
-                    <input type="email" placeholder="Get our newsletter" class="w-full border-b border-gray-300 py-2 pr-10 bg-transparent focus:outline-none focus:border-fabric-dark text-sm" />
-                    <button class="absolute right-0 top-2 text-gray-400 hover:text-fabric-dark">
+                    <input type="email" placeholder="Enter your email" class="w-full border-b border-gray-300 py-2 pr-10 bg-transparent focus:outline-none focus:border-fabric-accent text-sm" />
+                    <button class="absolute right-0 top-2 text-gray-400 hover:text-fabric-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </button>
                 </div>
                 <p class="text-[10px] text-gray-400 mt-4 leading-tight">
-                    Do not include medical or patient information. Fabric is not a patient portal and Protected Health Information (PHI) will be deleted. This form is for business inquiries only.
+                    For healthcare professionals only. This form is for updates and information about Evidentia's clinical evidence platform.
                 </p>
             </div>
 
             <div class="col-span-1 md:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div>
-                    <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Platform & Services</h4>
+                    <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Platform</h4>
                     <ul class="space-y-3 text-sm text-gray-600">
-                        <li><a href="#" class="hover:text-fabric-dark">AI Assistant</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Engagement & Pathways</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Virtual Care Platform</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Virtual Care Service</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Intake & Care Guides</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Enterprise Features</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Evidence Search</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Citation Management</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Clinical Validation</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Evidence Library</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Mobile App</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">API Access</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Solutions</h4>
+                    <h4 class="font-bold text-xs uppercase tracking-wider mb-4">For Doctors</h4>
                     <ul class="space-y-3 text-sm text-gray-600">
-                        <li><a href="#" class="hover:text-fabric-dark">For Health Systems</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">For Health Plans</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">For Employers</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">For Brokers</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">All Organization Types</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">NHS Registrars</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Consultants</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Emergency Medicine</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Teaching Rounds</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Clinical Audit</a></li>
                     </ul>
                 </div>
                 <div>
                      <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Resources</h4>
                     <ul class="space-y-3 text-sm text-gray-600">
-                        <li><a href="#" class="hover:text-fabric-dark">All Resources</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Blog</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Guides</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Case Studies</a></li>
-                        <li><a href="#" class="hover:text-fabric-dark">Videos & Webinars</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Evidence Blog</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Clinical Guides</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Success Stories</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Methodology</a></li>
+                        <li><a href="#" class="hover:text-fabric-accent">Webinars</a></li>
                     </ul>
                 </div>
                 <div>
                     <div class="mb-8">
                         <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Company</h4>
                         <ul class="space-y-3 text-sm text-gray-600">
-                            <li><a href="#" class="hover:text-fabric-dark">About</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">Press</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">Careers</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">Contact</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">About Evidentia</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">News</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">Careers</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">Contact</a></li>
                         </ul>
                     </div>
                      <div>
                         <h4 class="font-bold text-xs uppercase tracking-wider mb-4">Connect</h4>
                         <ul class="space-y-3 text-sm text-gray-600">
-                            <li><a href="#" class="hover:text-fabric-dark">LinkedIn</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">Facebook</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">X (Twitter)</a></li>
-                            <li><a href="#" class="hover:text-fabric-dark">Email Opt-In</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">LinkedIn</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">Twitter</a></li>
+                            <li><a href="#" class="hover:text-fabric-accent">Newsletter</a></li>
                         </ul>
                     </div>
                 </div>
@@ -106,12 +105,12 @@
         
         <div class="flex flex-col md:flex-row justify-between items-end border-t border-gray-200 pt-8">
              <div class="flex gap-8 text-xs text-gray-500 font-medium">
-                <a href="#" class="hover:text-fabric-dark">Legal</a>
-                <a href="#" class="hover:text-fabric-dark">Privacy Policy</a>
-                <a href="#" class="hover:text-fabric-dark">Terms & Conditions</a>
-                <a href="#" class="hover:text-fabric-dark">Applicant & Candidate Privacy Notice</a>
+                <a href="#" class="hover:text-fabric-accent">Legal</a>
+                <a href="#" class="hover:text-fabric-accent">Privacy Policy</a>
+                <a href="#" class="hover:text-fabric-accent">Terms of Service</a>
+                <a href="#" class="hover:text-fabric-accent">Medical Disclaimer</a>
              </div>
-             <p class="text-[10px] text-gray-400 mt-4 md:mt-0">© 2025 Fabric Labs, Inc. All rights reserved.</p>
+             <p class="text-[10px] text-gray-400 mt-4 md:mt-0">© 2024 Evidentia. All rights reserved.</p>
         </div>
     </div>
 
